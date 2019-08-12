@@ -21,3 +21,7 @@ java -jar testInvestBank-1.0-Snapshot.jar
 2. Выберите падеж и род
 3. Нажмите "Click"
 !![Screenshot](screen.png)
+
+## Test
+Потестировать можно [здесь](https://numbertostring.herokuapp.com/)
+
