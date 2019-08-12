@@ -20,4 +20,4 @@ java -jar testInvestBank-1.0-Snapshot.jar
 1. Введите целое число в диапозоне от -999,999,999,999 до 999,999,999,999
 2. Выберите падеж и род
 3. Нажмите "Click"
-!(screen.bmp)
+!![Screenshot](screen.png)
