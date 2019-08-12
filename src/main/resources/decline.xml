@@ -1,0 +1,522 @@
+<types>
+    <type value="DIGITS">
+        <digit value="1">
+            <gender>
+                <male>
+                    <cases>
+                        <NOMINATIVE value="один"/>
+                        <GENITIVE value="одного"/>
+                        <ACCUSATIVE value="один"/>
+                        <DATIVE value="одному"/>
+                        <INSTRUMENTAL value="одним"/>
+                        <PREPOSITIONAL value="одном"/>
+                    </cases>
+                </male>
+                <female>
+                    <cases>
+                        <NOMINATIVE value="одна"/>
+                        <GENITIVE value="одной"/>
+                        <ACCUSATIVE value="одну"/>
+                        <DATIVE value="одной"/>
+                        <INSTRUMENTAL value="одной"/>
+                        <PREPOSITIONAL value="одной"/>
+                    </cases>
+                </female>
+                <neuter>
+                    <cases>
+                        <NOMINATIVE value="одно"/>
+                        <GENITIVE value="одного"/>
+                        <ACCUSATIVE value="одно"/>
+                        <DATIVE value="одному"/>
+                        <INSTRUMENTAL value="одним"/>
+                        <PREPOSITIONAL value="одном"/>
+                    </cases>
+                </neuter>
+            </gender>
+        </digit>
+        <digit value="2">
+            <gender>
+                <male>
+                    <cases>
+                        <NOMINATIVE value="два"/>
+                        <GENITIVE value="двух"/>
+                        <ACCUSATIVE value="два"/>
+                        <DATIVE value="двум"/>
+                        <INSTRUMENTAL value="двумя"/>
+                        <PREPOSITIONAL value="двух"/>
+                    </cases>
+                </male>
+                <female>
+                    <cases>
+                        <NOMINATIVE value="две"/>
+                        <GENITIVE value="двух"/>
+                        <ACCUSATIVE value="две"/>
+                        <DATIVE value="двум"/>
+                        <INSTRUMENTAL value="двумя"/>
+                        <PREPOSITIONAL value="двух"/>
+                    </cases>
+                </female>
+                <neuter>
+                    <cases>
+                        <NOMINATIVE value="два"/>
+                        <GENITIVE value="двух"/>
+                        <ACCUSATIVE value="два"/>
+                        <DATIVE value="двум"/>
+                        <INSTRUMENTAL value="двумя"/>
+                        <PREPOSITIONAL value="двух"/>
+                    </cases>
+                </neuter>
+            </gender>
+        </digit>
+        <digit value="3">
+            <cases>
+                <NOMINATIVE value="три"/>
+                <GENITIVE value="трех"/>
+                <ACCUSATIVE value="три"/>
+                <DATIVE value="трем"/>
+                <INSTRUMENTAL value="тремя"/>
+                <PREPOSITIONAL value="трех"/>
+            </cases>
+        </digit>
+        <digit value="4">
+            <cases>
+                <NOMINATIVE value="четыре"/>
+                <GENITIVE value="четырех"/>
+                <ACCUSATIVE value="четыре"/>
+                <DATIVE value="четырем"/>
+                <INSTRUMENTAL value="четырьмя"/>
+                <PREPOSITIONAL value="четырех"/>
+            </cases>
+        </digit>
+        <digit value="5">
+            <cases>
+                <NOMINATIVE value="пять"/>
+                <GENITIVE value="пяти"/>
+                <ACCUSATIVE value="пять"/>
+                <DATIVE value="пяти"/>
+                <INSTRUMENTAL value="пятью"/>
+                <PREPOSITIONAL value="пяти"/>
+            </cases>
+        </digit>
+        <digit value="6">
+            <cases>
+                <NOMINATIVE value="шесть"/>
+                <GENITIVE value="шести"/>
+                <ACCUSATIVE value="шесть"/>
+                <DATIVE value="шести"/>
+                <INSTRUMENTAL value="шестью"/>
+                <PREPOSITIONAL value="шести"/>
+            </cases>
+        </digit>
+        <digit value="7">
+            <cases>
+                <NOMINATIVE value="семь"/>
+                <GENITIVE value="семи"/>
+                <ACCUSATIVE value="семь"/>
+                <DATIVE value="семью"/>
+                <INSTRUMENTAL value="семью"/>
+                <PREPOSITIONAL value="семи"/>
+            </cases>
+        </digit>
+        <digit value="8">
+            <cases>
+                <NOMINATIVE value="восемь"/>
+                <GENITIVE value="восьми"/>
+                <ACCUSATIVE value="восемь"/>
+                <DATIVE value="восьми"/>
+                <INSTRUMENTAL value="восмью"/>
+                <PREPOSITIONAL value="восьми"/>
+            </cases>
+        </digit>
+        <digit value="9">
+            <cases>
+                <NOMINATIVE value="девять"/>
+                <GENITIVE value="девяти"/>
+                <ACCUSATIVE value="девять"/>
+                <DATIVE value="девяти"/>
+                <INSTRUMENTAL value="девятью"/>
+                <PREPOSITIONAL value="девяти"/>
+            </cases>
+        </digit>
+    </type>
+    <type value="NUMBERS">
+        <number value="11">
+            <cases>
+                <NOMINATIVE value="одиннадцать"/>
+                <GENITIVE value="одиннадцати"/>
+                <ACCUSATIVE value="одиннадцать"/>
+                <DATIVE value="одиннадцати"/>
+                <INSTRUMENTAL value="одиннадцатью"/>
+                <PREPOSITIONAL value="одиннадцати"/>
+            </cases>
+        </number>
+        <number value="12">
+            <cases>
+                <NOMINATIVE value="двенадцать"/>
+                <GENITIVE value="двенадцати"/>
+                <ACCUSATIVE value="двенадцать"/>
+                <DATIVE value="двенадцати"/>
+                <INSTRUMENTAL value="двенадцатью"/>
+                <PREPOSITIONAL value="двенадцати"/>
+            </cases>
+        </number>
+        <number value="13">
+            <cases>
+                <NOMINATIVE value="тринадцать"/>
+                <GENITIVE value="тринадцати"/>
+                <ACCUSATIVE value="тринадцать"/>
+                <DATIVE value="тринадцати"/>
+                <INSTRUMENTAL value="тринадцатью"/>
+                <PREPOSITIONAL value="тринадцати"/>
+            </cases>
+        </number>
+        <number value="14">
+            <cases>
+                <NOMINATIVE value="четырнадцать"/>
+                <GENITIVE value="четырнадцати"/>
+                <ACCUSATIVE value="четырнадцать"/>
+                <DATIVE value="четырнадцати"/>
+                <INSTRUMENTAL value="четырнадцатью"/>
+                <PREPOSITIONAL value="четырнадцать"/>
+            </cases>
+        </number>
+        <number value="15">
+            <cases>
+                <NOMINATIVE value="пятнадцать"/>
+                <GENITIVE value="пятнадцати"/>
+                <ACCUSATIVE value="пятнадцать"/>
+                <DATIVE value="пятнадцати"/>
+                <INSTRUMENTAL value="пятнадцатью"/>
+                <PREPOSITIONAL value="пятнадцати"/>
+            </cases>
+        </number>
+        <number value="17">
+            <cases>
+                <NOMINATIVE value="семнадцать"/>
+                <GENITIVE value="семнадцати"/>
+                <ACCUSATIVE value="семнадцать"/>
+                <DATIVE value="семнадцати"/>
+                <INSTRUMENTAL value="семнадцатью"/>
+                <PREPOSITIONAL value="семнадцати"/>
+            </cases>
+        </number>
+        <number value="16">
+            <cases>
+                <NOMINATIVE value="шестнадцать"/>
+                <GENITIVE value="шестнадцати"/>
+                <ACCUSATIVE value="шестнадцать"/>
+                <DATIVE value="шестнадцати"/>
+                <INSTRUMENTAL value="шестнадцатью"/>
+                <PREPOSITIONAL value="шестнадцати"/>
+            </cases>
+        </number>
+        <number value="18">
+            <cases>
+                <NOMINATIVE value="восемнадцать"/>
+                <GENITIVE value="восемнадцати"/>
+                <ACCUSATIVE value="восемнадцать"/>
+                <DATIVE value="восемнадцати"/>
+                <INSTRUMENTAL value="восемнадцатью"/>
+                <PREPOSITIONAL value="восемнадцати"/>
+            </cases>
+        </number>
+        <number value="19">
+            <cases>
+                <NOMINATIVE value="девятнадцать"/>
+                <GENITIVE value="девятнадцати"/>
+                <ACCUSATIVE value="девятнадцать"/>
+                <DATIVE value="девятнадцати"/>
+                <INSTRUMENTAL value="девятнадцатью"/>
+                <PREPOSITIONAL value="девятнадцати"/>
+            </cases>
+        </number>
+    </type>
+    <type value="DECADES">
+        <decade value="1">
+            <cases>
+                <NOMINATIVE value="десять"/>
+                <GENITIVE value="десяти"/>
+                <ACCUSATIVE value="десять"/>
+                <DATIVE value="десяти"/>
+                <INSTRUMENTAL value="десятью"/>
+                <PREPOSITIONAL value="десяти"/>
+            </cases>
+        </decade>
+        <decade value="2">
+            <cases>
+                <NOMINATIVE value="двадцать"/>
+                <GENITIVE value="двадцати"/>
+                <ACCUSATIVE value="двадцать"/>
+                <DATIVE value="двадцати"/>
+                <INSTRUMENTAL value="двадцатью"/>
+                <PREPOSITIONAL value="двадцати"/>
+            </cases>
+        </decade>
+        <decade value="3">
+            <cases>
+                <NOMINATIVE value="тридцать"/>
+                <GENITIVE value="тридцати"/>
+                <ACCUSATIVE value="тридцать"/>
+                <DATIVE value="тридцати"/>
+                <INSTRUMENTAL value="тридцатью"/>
+                <PREPOSITIONAL value="тридцати"/>
+            </cases>
+        </decade>
+        <decade value="4">
+            <cases>
+                <NOMINATIVE value="сорок"/>
+                <GENITIVE value="сорока"/>
+                <ACCUSATIVE value="сорок"/>
+                <DATIVE value="сорока"/>
+                <INSTRUMENTAL value="сорока"/>
+                <PREPOSITIONAL value="сорока"/>
+            </cases>
+        </decade>
+        <decade value="5">
+            <cases>
+                <NOMINATIVE value="пятьдесят"/>
+                <GENITIVE value="пятидесяти"/>
+                <ACCUSATIVE value="пятьдесят"/>
+                <DATIVE value="пятидесяти"/>
+                <INSTRUMENTAL value="пятьюдесятью"/>
+                <PREPOSITIONAL value="пятидесяти"/>
+            </cases>
+        </decade>
+        <decade value="6">
+            <cases>
+                <NOMINATIVE value="шестьдесят"/>
+                <GENITIVE value="шестидесяти"/>
+                <ACCUSATIVE value="шестьдесят"/>
+                <DATIVE value="шестидесяти"/>
+                <INSTRUMENTAL value="шестьюдесятью"/>
+                <PREPOSITIONAL value="шестидесяти"/>
+            </cases>
+        </decade>
+        <decade value="7">
+            <cases>
+                <NOMINATIVE value="семьдесят"/>
+                <GENITIVE value="семидесяти"/>
+                <ACCUSATIVE value="семьдесят"/>
+                <DATIVE value="семидесяти"/>
+                <INSTRUMENTAL value="семьюдесятью"/>
+                <PREPOSITIONAL value="семидесяти"/>
+            </cases>
+        </decade>
+        <decade value="8">
+            <cases>
+                <NOMINATIVE value="восемьдесят"/>
+                <GENITIVE value="восьмидесяти"/>
+                <ACCUSATIVE value="восемьдесят"/>
+                <DATIVE value="восьмидесяти"/>
+                <INSTRUMENTAL value="восьмьюдесятью"/>
+                <PREPOSITIONAL value="восьмидесяти"/>
+            </cases>
+        </decade>
+        <decade value="9">
+            <cases>
+                <NOMINATIVE value="девяносто"/>
+                <GENITIVE value="девяноста"/>
+                <ACCUSATIVE value="девяносто"/>
+                <DATIVE value="девяноста"/>
+                <INSTRUMENTAL value="девяноста"/>
+                <PREPOSITIONAL value="девяноста"/>
+            </cases>
+        </decade>
+    </type>
+    <type value="HUNDREDS">
+        <hundred value="1">
+            <cases>
+                <NOMINATIVE value="сто"/>
+                <GENITIVE value="ста"/>
+                <ACCUSATIVE value="сто"/>
+                <DATIVE value="ста"/>
+                <INSTRUMENTAL value="ста"/>
+                <PREPOSITIONAL value="ста"/>
+            </cases>
+        </hundred>
+        <hundred value="2">
+            <cases>
+                <NOMINATIVE value="двести"/>
+                <GENITIVE value="двухсот"/>
+                <ACCUSATIVE value="двести"/>
+                <DATIVE value="двумстам"/>
+                <INSTRUMENTAL value="двумястами"/>
+                <PREPOSITIONAL value="двухстах"/>
+            </cases>
+        </hundred>
+        <hundred value="3">
+            <cases>
+                <NOMINATIVE value="триста"/>
+                <GENITIVE value="трёхсот"/>
+                <ACCUSATIVE value="триста"/>
+                <DATIVE value="трёмстам"/>
+                <INSTRUMENTAL value="тремястами"/>
+                <PREPOSITIONAL value="трёхстах"/>
+            </cases>
+        </hundred>
+        <hundred value="4">
+            <cases>
+                <NOMINATIVE value="четыреста"/>
+                <GENITIVE value="четырёхсот"/>
+                <ACCUSATIVE value="четыреста"/>
+                <DATIVE value="четырёмстам"/>
+                <INSTRUMENTAL value="четырьмястами"/>
+                <PREPOSITIONAL value="четырёхстах"/>
+            </cases>
+        </hundred>
+        <hundred value="5">
+            <cases>
+                <NOMINATIVE value="пятьсот"/>
+                <GENITIVE value="пятисот"/>
+                <ACCUSATIVE value="пятьсот"/>
+                <DATIVE value="пятистам"/>
+                <INSTRUMENTAL value="пятьюстами"/>
+                <PREPOSITIONAL value="пятистах"/>
+            </cases>
+        </hundred>
+        <hundred value="6">
+            <cases>
+                <NOMINATIVE value="шестьсот"/>
+                <GENITIVE value="шестисот"/>
+                <ACCUSATIVE value="шестьсот"/>
+                <DATIVE value="шестистам"/>
+                <INSTRUMENTAL value="шестьюстами"/>
+                <PREPOSITIONAL value="шестистах"/>
+            </cases>
+        </hundred>
+        <hundred value="7">
+            <cases>
+                <NOMINATIVE value="семьсот"/>
+                <GENITIVE value="семисот"/>
+                <ACCUSATIVE value="семьсот"/>
+                <DATIVE value="семистам"/>
+                <INSTRUMENTAL value="семьюстами"/>
+                <PREPOSITIONAL value="семистах"/>
+            </cases>
+        </hundred>
+        <hundred value="8">
+            <cases>
+                <NOMINATIVE value="восемьсот"/>
+                <GENITIVE value="восьмисот"/>
+                <ACCUSATIVE value="восемьсот"/>
+                <DATIVE value="восьмистам"/>
+                <INSTRUMENTAL value="восемьюстами"/>
+                <PREPOSITIONAL value="восьмистах"/>
+            </cases>
+        </hundred>
+        <hundred value="9">
+            <cases>
+                <NOMINATIVE value="девятьсот"/>
+                <GENITIVE value="девятисот"/>
+                <ACCUSATIVE value="девятьсот"/>
+                <DATIVE value="девятистам"/>
+                <INSTRUMENTAL value="девятьюстами"/>
+                <PREPOSITIONAL value="девятистах"/>
+            </cases>
+        </hundred>
+    </type>
+    <type value="WORDS">
+        <word value="THOUSAND" word="тысяч">
+            <end>
+                <number value="1">
+                    <cases>
+                        <NOMINATIVE value="а"/>
+                        <GENITIVE value="и"/>
+                        <DATIVE value="е"/>
+                        <ACCUSATIVE value="у"/>
+                        <INSTRUMENTAL value="ей"/>
+                        <PREPOSITIONAL value="е"/>
+                    </cases>
+                </number>
+                <number value="2,3,4">
+                    <cases>
+                        <NOMINATIVE value="и"/>
+                        <GENITIVE value=""/>
+                        <DATIVE value="ам"/>
+                        <ACCUSATIVE value="и"/>
+                        <INSTRUMENTAL value="ами"/>
+                        <PREPOSITIONAL value="ах"/>
+                    </cases>
+                </number>
+                <number value="5,6,7,8,9">
+                    <cases>
+                        <NOMINATIVE value=""/>
+                        <GENITIVE value=""/>
+                        <DATIVE value="ам"/>
+                        <ACCUSATIVE value=""/>
+                        <INSTRUMENTAL value="ами"/>
+                        <PREPOSITIONAL value="ах"/>
+                    </cases>
+                </number>
+            </end>
+        </word>
+        <word value="MILLION" word="миллион">
+            <end>
+                <number value="1">
+                    <cases>
+                        <NOMINATIVE value=""/>
+                        <GENITIVE value="а"/>
+                        <DATIVE value="у"/>
+                        <ACCUSATIVE value=""/>
+                        <INSTRUMENTAL value="ам"/>
+                        <PREPOSITIONAL value="е"/>
+                    </cases>
+                </number>
+                <number value="2,3,4">
+                    <cases>
+                        <NOMINATIVE value="а"/>
+                        <GENITIVE value="ов"/>
+                        <DATIVE value="ам"/>
+                        <ACCUSATIVE value="а"/>
+                        <INSTRUMENTAL value="ами"/>
+                        <PREPOSITIONAL value="ах"/>
+                    </cases>
+                </number>
+                <number value="5,6,7,8,9">
+                    <cases>
+                        <NOMINATIVE value="ов"/>
+                        <GENITIVE value="ов"/>
+                        <DATIVE value="ам"/>
+                        <ACCUSATIVE value="ов"/>
+                        <INSTRUMENTAL value="ами"/>
+                        <PREPOSITIONAL value="ах"/>
+                    </cases>
+                </number>
+            </end>
+        </word>
+        <word value="BILLION" word="миллиард">
+            <end>
+                <number value="1">
+                    <cases>
+                        <NOMINATIVE value=""/>
+                        <GENITIVE value="а"/>
+                        <DATIVE value="у"/>
+                        <ACCUSATIVE value=""/>
+                        <INSTRUMENTAL value="ом"/>
+                        <PREPOSITIONAL value="е"/>
+                    </cases>
+                </number>
+                <number value="2,3,4">
+                    <cases>
+                        <NOMINATIVE value="а"/>
+                        <GENITIVE value="ов"/>
+                        <DATIVE value="ам"/>
+                        <ACCUSATIVE value="а"/>
+                        <INSTRUMENTAL value="ами"/>
+                        <PREPOSITIONAL value="ах"/>
+                    </cases>
+                </number>
+                <number value="5,6,7,8,9">
+                    <cases>
+                        <NOMINATIVE value="ов"/>
+                        <GENITIVE value="ов"/>
+                        <DATIVE value="ам"/>
+                        <ACCUSATIVE value="ов"/>
+                        <INSTRUMENTAL value="ами"/>
+                        <PREPOSITIONAL value="ах"/>
+                    </cases>
+                </number>
+            </end>
+        </word>
+    </type>
+</types>

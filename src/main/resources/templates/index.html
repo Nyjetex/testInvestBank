@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Welcome</title>
+</head>
+<body>
+<style>
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input[type=submit]{
+        background-color: #4CAF50;
+        border: none ;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+
+    }
+
+</style>
+<h1>Welcome</h1>
+
+<form th:action="@{/index}"
+      th:object="${form}" method="POST">
+    <input type="text" th:field="*{number}"/>
+
+
+    <select th:field="*{caseType}">
+        <option th:each="state : ${T(com.alexsanderyurevich.data.DeclineData.Cases).values()}"
+                th:value="${state}"
+                th:text="${state}">
+        </option>
+    </select>
+    <select th:field="*{gender}">
+        <option th:each="state : ${T(com.alexsanderyurevich.data.DeclineData.Gender).values()}"
+                th:value="${state}"
+                th:text="${state}">
+        </option>
+    </select>
+
+    <input type="submit" value="Click"/>
+</form>
+<br>
+<div th:if="${result}" th:utext="${result}"
+     style="color:black;font-style:normal;">
+    ...
+</div>
+
+</body>
+</html>
